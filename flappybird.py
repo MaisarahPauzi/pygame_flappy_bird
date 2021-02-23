@@ -10,7 +10,7 @@ screen = pygame.display.set_mode(SCREEN_SIZE)
 # coordinates
 x = 400
 y = 100
-y_change = 0
+y_change = 10
 y_ground = 370
 
 # images
@@ -89,4 +89,4 @@ while not GAME_OVER:
     pygame.time.delay(100)
     pygame.display.update()
 
-pygame.quit()
+pygame.quit()    
